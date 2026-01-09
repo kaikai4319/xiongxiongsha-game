@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+temp/
